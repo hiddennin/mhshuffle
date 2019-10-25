@@ -89,7 +89,7 @@ sub shuffle {
 	my $runs = 10;	# run 10 times by default
 	if ( scalar $ARGV[0] > 0 ) { $runs = scalar $ARGV[0]; }
 
-	my @distribution = (0, 0, 0, 0, 0, 0, 0, 0, 0);
+	my @distribution = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 	printf "%-36.36s Tickets\n", "Board Layout";
 # control solution
 	@board = @pairs;
