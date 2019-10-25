@@ -76,7 +76,7 @@ def shuffle(board):
 runs = 10	# run 10 times by default
 if len(sys.argv) > 1 and int(sys.argv[1]) > 0:
 	runs = int(sys.argv[1])
-distributions = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+distributions = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 print "Board Layout                         Tickets"
 # control solution
 board = pairs
